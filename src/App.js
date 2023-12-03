@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Bots from './components/Bots';
+import Chat from './components/Chat';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="chatbox">
+        <section className='mt-10 rounded-t-lg'>
+          <h1><i className="fab fa-atlassian"></i>CoolChat</h1>
+        </section>
+        
+        <div className='flex justify-between mt-5'>
+          <Bots />
+          <Chat />
+        </div>
+      </div>
+    </>
   );
 }
 
