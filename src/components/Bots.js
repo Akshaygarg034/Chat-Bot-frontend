@@ -15,7 +15,7 @@ function Bots(props) {
                             className="w-12 h-12 rounded-full"
                         />
                         <div className="flex flex-col">
-                            <span className="text-lg font-medium">Bot 1</span>
+                            <span className="text-lg font-medium">SBERT</span>
                         </div>
                     </div>
                 </li>
@@ -28,7 +28,7 @@ function Bots(props) {
                             className="w-12 h-12 rounded-full"
                         />
                         <div className="flex flex-col">
-                            <span className="text-lg font-medium">Bot 2</span>
+                            <span className="text-lg font-medium">INTENT</span>
                         </div>
                     </div>
                 </li>
